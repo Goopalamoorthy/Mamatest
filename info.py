@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 PORT = environ.get("PORT", "")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME',)
+CACHE_TIME = int(environ.get('CACHE_TIME', '300')
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER',))
 PICS = (environ.get('PICS', '')).split()
 
